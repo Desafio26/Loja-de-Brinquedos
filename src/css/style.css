@@ -23,8 +23,10 @@ header {
     width: 100%;
 }
 
-.header-container h1 {
+.header-container p {
     color: #FF9FC5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
 }
 
 .header-nav ul {
@@ -42,6 +44,7 @@ header {
 #btn-login a{
     color: #FF9FC5;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 
 #btn-login,
@@ -72,18 +75,22 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    width: 100%;
+    justify-content: space-around;
 }
 
 #imagem-marvel img {
     width: 100%;
     height: auto;
     border-radius: 40%;
+    max-width: 250px;
 }
 
 #imagem-dc img {
     width: 100%;
     height: auto;
     border-radius: 200px;
+    max-width: 400px;
 }
 
 .fundo-artigo {
@@ -93,10 +100,17 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    width: 20000px;
+    max-width: 320px;
 }
 
 .fundo-artigo h2 {
     color: #4b1c31;
     margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.fundo-artigo p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vh;
 }
