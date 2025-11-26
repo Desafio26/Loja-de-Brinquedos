@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 header {
     height: 90px;
     background-color: #4b1c31;
@@ -46,4 +47,11 @@ header {
     background-color: #D9D9D9;
     color: #4b1c31;
     border-radius: 10px;
+}
+
+/* BANNER */
+.banner {
+    width: 100%;
+    margin: 5px;
+    position: center;
 }
