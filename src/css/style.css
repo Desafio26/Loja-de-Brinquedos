@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* HEADER */
 header {
     height: 90px;
@@ -54,4 +57,46 @@ header {
     width: 100%;
     margin: 5px;
     position: center;
+}
+
+/* INFORMACOES */
+#produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 20px 70px 20px;
+}
+
+.linha1,
+.linha2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#imagem-marvel img {
+    width: 100%;
+    height: auto;
+    border-radius: 40%;
+}
+
+#imagem-dc img {
+    width: 100%;
+    height: auto;
+    border-radius: 200px;
+}
+
+.fundo-artigo {
+    background-color: #e0aac5;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.fundo-artigo h2 {
+    color: #4b1c31;
+    margin-bottom: 50px;
 }
