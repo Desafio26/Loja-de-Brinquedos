@@ -84,6 +84,7 @@ header {
     height: auto;
     border-radius: 40%;
     width: 250px;
+    max-width: 350px;
 }
 
 #imagem-dc img {
@@ -140,4 +141,19 @@ footer {
 .footer small {
     color: #fff;
     font-family: "Montserrat", sans-serif;
+}
+
+/* RESPONSIVIDADE */
+@media (width <= 800px) {
+    .linha1,
+    .linha2 {
+        flex-direction: column;
+    }
+
+    #imagem-marvel img,
+    #imagem-dc img,
+    .fundo-artigo {
+        margin-bottom: 30px;
+        width: 60vw;
+    }
 }
