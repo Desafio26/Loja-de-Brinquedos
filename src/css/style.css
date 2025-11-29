@@ -14,7 +14,7 @@ header {
     padding: 10px 20px 10px 20px;
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .header-container {
@@ -57,9 +57,13 @@ header {
 }
 
 /* BANNER */
-.banner {
+#banner {
     width: 100%;
-    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.banner {
+    width: 98%;
     position: center;
 }
 
@@ -155,5 +159,11 @@ footer {
     .fundo-artigo {
         margin-bottom: 30px;
         width: 60vw;
+    }
+}
+
+@media (width <= 600px) {
+    .header-container {
+        flex-direction: column;
     }
 }
